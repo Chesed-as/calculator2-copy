@@ -82,7 +82,7 @@ class ViewController: UIViewController {
                        {   error = true //除数为零，记为错误
                            operatorFlag = ""
                            isOperator = false   }
-                       else{result = value1 / value2}
+                       else{value1 = value1 / value2}
             default : break
             }
             if(!error){screenL.text = "\(value1)"}
